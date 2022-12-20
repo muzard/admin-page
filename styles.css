@@ -96,6 +96,10 @@ body {
   gap: 20px;
 }
 
+.imgs img {
+    height: 30px;
+}
+
 .announcements {
   grid-area: 1 / 2 / 2 / -1;
 
