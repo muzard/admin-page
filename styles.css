@@ -264,6 +264,13 @@ body {
   grid-row: 2 / 3;
   background-color: antiquewhite;
   width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 64px;
+
+  box-sizing: border-box;
 }
 
 input[type="search"] {
@@ -283,4 +290,32 @@ input[type="search"] {
 
 .right > p {
   font-size: 34px;
+}
+
+.l > img {
+  height: 60px;
+}
+
+.l {
+  display: flex;
+  gap: 20px;
+}
+
+.r {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+}
+
+.r > button {
+  height: 64px;
+  width: 256px;
+
+  border: 0;
+  border-radius: 8px;
+
+  color: aliceblue;
+  background-color: rgba(0, 33, 152, 0.516);
+
+  font-size: 42px;
 }
