@@ -51,11 +51,11 @@ body {
   box-sizing: border-box;
 
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr 70px;
 }
 
 .projects {
-    grid-area: 1 / 1 / -1 / 2;
+    grid-area: 1 / 1 / -2 / 2;
 
     display: flex;
     flex-direction: column;
