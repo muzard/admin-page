@@ -27,7 +27,7 @@ body {
 }
 
 .sidebar {
-  background-color: aqua;
+  background-color: rgba(0, 33, 152, 0.516);
 
   grid-area: 1 / 1 / -1 / 2;
 
