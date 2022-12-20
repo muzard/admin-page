@@ -99,7 +99,7 @@ body {
 }
 
 .imgs img {
-    height: 30px;
+  height: 30px;
 }
 
 .announcements {
@@ -133,5 +133,15 @@ body {
 .trending {
   grid-area: 2 / 2 / 3 / 3;
 
-  background-color: rgba(0, 0, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.trending-container {
+  background-color: aliceblue;
+
+  flex: 1 0 auto;
+  padding: 32px;
+  border-radius: 8px;
 }
