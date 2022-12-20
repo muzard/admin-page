@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+
+  overflow: hidden;
+}
+
+.main-layout {
+  display: grid;
+  height: 100%;
+  width: 100%;
+
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 6fr;
+}
+
+.sidebar {
+  background-color: aqua;
+
+  grid-area: 1 / 1 / -1 / 2;
+
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  background-color: aliceblue;
+
+  grid-area: 1 / 2 / -1 / 2;
+
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  background-color: gray;
+
+  grid-area: 2 / 2 / -1 / -1;
+
+  height: 100%;
+  width: 100%;
+}
