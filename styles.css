@@ -144,4 +144,28 @@ body {
   flex: 1 0 auto;
   padding: 32px;
   border-radius: 8px;
+
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.trending-container img {
+    height: 30px;
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.name,
+.desc {
+    font-size: 28px;
+}
+
+.name {
+    font-weight: 600;
 }
